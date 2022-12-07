@@ -1,4 +1,5 @@
 # kt-appdirs
+A currently WIP Kotlin Multiplatform library to simplify Appdirs for Kotlin across all its platforms.
 
 ## Java
 Simply wraps around [Harawata's AppDirs](https://github.com/harawata/appdirs).
