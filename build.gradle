@@ -6,17 +6,6 @@ plugins {
 group = "com.github.stephenhamiltonc"
 version = "0.1.0-SNAPSHOT"
 
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            groupId = group
-            artifactId = "kt-appdirs"
-            version = version
-
-            from components.java
-        }
-    }
-}
 
 repositories {
     mavenCentral()
@@ -61,6 +50,17 @@ kotlin {
             dependencies {
                 // https://mvnrepository.com/artifact/net.harawata/appdirs
                 implementation "net.harawata:appdirs:1.2.1"
+            }
+            publishing {
+                publications {
+                    mavenJava(MavenPublication) {
+                        groupId = group
+                        artifactId = "kt-appdirs"
+                        version = version
+
+                        from components.java
+                    }
+                }
             }
         }
         jvmTest {
