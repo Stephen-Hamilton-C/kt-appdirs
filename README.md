@@ -1,3 +1,7 @@
+# Archived - 2026-09-17
+All repositories have been transferred to a personally-run repository.
+This remains up for legacy purposes.
+
 # kt-appdirs
 A currently WIP Kotlin Multiplatform library to simplify Appdirs for Kotlin across all its platforms.
 
